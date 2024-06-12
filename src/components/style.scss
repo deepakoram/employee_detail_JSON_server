@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    .logo{
+        h2{
+            color: aliceblue;
+        }
+    }
+    .item{
+        width: 200px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                list-style: none;
+                a{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+
+}
+
+.sidebar{
+    ul{
+        li{
+            list-style: none;
+            font-size: large;
+            a{
+                color:aliceblue
+            }
+        }
+    }
+}
